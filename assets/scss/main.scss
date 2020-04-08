@@ -1,0 +1,849 @@
+$body-color: #2d2d2d;
+$font-family-sans-serif: "Montserrat", sans-serif;
+$body-bg: #f7f7f7;
+
+
+// imports
+@import
+'partials/bs',
+'../../node_modules/bootstrap/scss/bootstrap';
+
+// mobile-first media queries
+body {
+    overflow-x: hidden;
+}
+
+.shape-top {
+    position: absolute;
+    top: 0;
+}
+
+.shape-left {
+    left: 0;
+}
+
+.shape-right {
+    right: 0;
+}
+
+// Navbar
+
+
+.custom-navbar {
+    padding: 30px 0;
+    margin-bottom: 65px;
+}
+
+.custom-toggler {
+    svg {
+        width: 30px;
+    }
+}
+
+.custom-collapse {
+    position: absolute;
+    right: 18px;
+    top: 80px;
+    background: #2D2D2D;
+    width: 320px;
+    padding: 60px 20px;
+    z-index: 10;
+    
+    .nav-link {
+        color: #fff;
+        margin-bottom: 20px;
+    }
+}
+
+button.navbar-toggler.custom-toggler {
+    margin-right: 5px;
+}
+
+.btn.custom-nav-btn {
+    border: 3px solid #ffd766;
+    padding: 13px 30px;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.btn.sign-btn {
+    font-weight: 400;
+    margin-right: 30px;
+}
+
+.custom-nav-link{
+    color: #2d2d2d;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0 20px;
+}
+
+// Header banner section
+
+.header-banner-content {
+    max-width: 720px;
+    position: relative;
+    z-index: 1;
+
+    h1 {
+        font-weight: 800;
+        font-size: 48px;
+        text-align: center;
+        line-height: 1.25;
+        margin-bottom: 30px;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 20px;
+        color: #2D2D2D;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 1.5;
+        padding: 0 70px;
+        margin-bottom: 45px;
+    }
+}
+
+.custom-header-btn {
+    background: #FFD766;
+    border-radius: 10px;
+    font-size: 16px;
+    height: 61px;
+    padding: 18px 20px;
+    font-weight: 600;
+    line-height: 1;
+    min-width: 240px;
+}
+
+.shape-bottom img {
+    max-width: 280px;
+    height: auto;
+}
+
+.shape-bottom {
+    position: absolute;
+    bottom: -36px;
+
+}
+
+.shape-bottom.shape-right {
+    bottom: 0;
+}
+
+.app-screenshot img {
+    max-width: 860px;
+    height: auto;
+    width: 55vw;
+    margin-top: -200px;
+    position: relative;
+}
+
+.header-wrapper {
+    min-height: 94vh;
+    position: relative;
+}
+
+.app-screenshot {
+    margin-bottom: 180px;
+}
+// clients section
+
+.clients {
+    margin-bottom: 190px;
+}
+
+.client-logo {
+    padding: 0 15px;
+}
+
+.client-logo img {
+    max-width: 258px;
+    height: auto;
+}
+
+// champion success
+
+.champion-section {
+    margin-bottom: 175px;
+    position: relative;
+}
+
+.champion-image img {
+    max-width: 610px;
+    height: auto;
+}
+
+.champion-content,
+.rebound-content,
+.segment-content {
+
+    h2{
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 1.3;
+        margin-bottom: 10px;
+    }
+
+    h5 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 1.6;
+        margin-bottom: 35px;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.6;
+    }
+}
+
+
+
+.champ-bg {
+    position: absolute;
+    margin-top: 10px;
+    right: 0;
+}
+
+// rebound section
+.rebound {
+    margin-bottom: 260px;
+}
+
+.rebound-img img {
+    max-width: 679px;
+    height: auto;
+}
+
+.rebound-pattern {
+    position: absolute;
+    bottom: -65px;
+    left: -100px;
+}
+
+// segment section
+
+.segment-img img {
+    max-width: 642px;
+    height: auto;
+}
+
+.segment {
+    margin-bottom: 290px;
+}
+
+// expert slider
+.expert-slide {
+    margin-bottom: 300px;
+
+    .slick-arrow {
+        background: #2D2D2D;
+        font-size: 0;
+        position: absolute;
+        height: 100%;
+        width: 52px;
+        top: 0;
+        z-index: 2;
+
+        &:focus {
+            outline: none;
+            box-shadow: none;
+        }
+    }
+
+    .slick-prev {
+        border-radius: 0 10px 10px 0;
+        left: -15px;
+    }
+
+    .slick-next {
+        border-radius: 10px 0 0 10px;
+        right: -15px;
+    }
+}
+
+
+.expert-content {
+    h3 {
+        font-weight: 800;
+        font-size: 36px;
+        text-align: center;
+        line-height: 1.3;
+        margin-bottom: 15px;
+    }
+
+    p {
+        font-weight: 600;
+        font-size: 24px;
+        text-align: center;
+        line-height: 1.6;
+        margin-bottom: 65px;
+
+    }
+}
+
+.expert-slider-content .expert-author {
+
+    img {
+        max-width: 45px;
+        height: auto;
+        margin-right: 16px;
+    }
+
+    span {
+        font-weight: 600;
+        font-size: 20px;
+        color: #232323;
+        line-height: 1.4;
+    }
+}
+
+
+
+.expert-slider-content {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    outline: none;
+
+    .bg-white {
+        border-radius: 10px;
+        padding: 30px;
+        box-shadow: 0 0 5px 0 rgba(45,45,45,0.20);
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    p {
+        font-weight: 400;
+        font-size: 16px;
+        color: #777778;
+        letter-spacing: 0;
+        line-height: 1.4;
+        margin-bottom: 24px;
+        max-width: 447px;
+        margin-top: 17px;
+    }
+
+
+}
+
+.expert-side-img{
+    display: block;
+    img {
+        max-height: 45px;
+        width: auto;
+    }
+}
+
+// privacy design
+
+.privacy-design {
+    padding-top: 80px;
+    background: #7D77FF;
+    padding-bottom: 390px;
+
+}
+
+.privacy-design-content {
+    h3 {
+        font-weight: 800;
+        font-size: 36px;
+        text-align: center;
+        line-height: 1.3;
+        margin-bottom: 15px;
+    }
+
+    p {
+        font-weight: 500;
+        font-size: 24px;
+        text-align: center;
+        line-height: 1.6;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+}
+
+.security-col {
+    padding: 30px 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 rgba(45,45,45,0.20);
+    height: 100%;
+
+    .privacy-img img {
+        max-width: 164px;
+        height: auto;
+
+    }
+    h3 {
+        font-weight: 800;
+        font-size: 36px;
+        text-align: center;
+        line-height: 1.3;
+        text-transform: capitalize;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.6;
+        margin-bottom: 40px;
+    }
+}
+
+.lear-more a {
+    font-weight: 500;
+    font-size: 24px;
+    color: inherit;
+    border-bottom: 4px solid #FFD766;
+    text-decoration: none;
+    padding-bottom: 2px;
+}
+
+.privacy-block-content {
+    margin-top: -320px;
+    margin-bottom: 250px;
+    
+    .col-12 {
+        margin-bottom: 30px;
+    }
+}
+
+// waitlist section
+
+.waitlist-wrapper {
+    h2 {
+        font-weight: 800;
+        font-size: 36px;
+        color: #2D2D2D;
+        letter-spacing: 0;
+        line-height: 1.3;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-weight: 600;
+        font-size: 24px;
+        text-align: center;
+        line-height: 1.6;
+        margin-bottom: 80px;
+    }
+}
+
+.waitlist-form  {
+    margin: 0 auto 15px;
+
+    .waitlist-btn {
+        background: #FFD766;
+        border-radius: 10px;
+        font-weight: 600;
+        font-size: 20px;
+        letter-spacing: -0.31px;
+        text-align: center;
+        padding: 14px 20px;
+        text-transform: capitalize;
+        min-width: 260px;
+    }
+
+    .form-group input {
+        height: 60px;
+        border: none;
+        background: #FFFFFF;
+        box-shadow: inset 0 0 0 1px #EEF3F3;
+        border-radius: 10px;
+    }
+
+    .waitlist-form-group {
+        margin-bottom: 0;
+        margin-right: 10px;
+        min-width: 30%;
+    }
+
+    span {
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+        line-height: 2;
+    }
+}
+
+.waitlist {
+    margin-bottom: 50px;
+}
+
+// Footer
+.avrio-footer {
+    background: $body-color;
+    padding: 110px 0 40px;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 2;
+    margin-top: -1px;
+    position: relative;
+
+    .container {
+        max-width: 1120px;
+    }
+
+    h5 {
+        font-size: 20px;
+        color: #FFFFFF;
+        line-height: 1;
+        margin-bottom: 16px;
+    }
+
+    a {
+        color: inherit;
+    }
+
+    .hr-separator {
+        background: #3D3D3D;
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+}
+
+.social-links {
+    a {
+        margin-right: 16px;
+        text-decoration: none;
+    }
+
+    img {
+        max-width: 24px;
+    }
+}
+
+.footer-copyright {
+
+}
+
+.footer-quick-links {
+    a {
+        margin-left: 30px;
+    }
+}
+
+
+.expert-slide {
+    margin-bottom: 150px;
+}
+
+.privacy-design-content h3 {
+    font-size: 30px;
+}
+
+.privacy-design-content p {
+    font-size: 20px;
+}
+.privacy-icon img {
+    width: 80px;
+    min-height: 100px;
+}
+
+.security-col {
+    h3 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+
+.lear-more a {
+    font-size: 22px;
+}
+
+.privacy-block-content {
+    margin-bottom: 130px;
+}
+
+.waitlist-wrapper  {
+    h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width : 1180px) {
+    .shape-bottom img {
+        max-width: 250px;
+    }
+    
+    .header-banner-bt-img .shape-right svg {
+        max-width: 250px;
+    }
+}
+
+@media (max-width : 1024px) {
+    // header section
+
+    .header-banner-content{ 
+        h1 {
+            font-size: 38px;
+        }
+        p {
+            font-size: 18px;
+        }
+
+    }
+
+    .shape-bottom img {
+        max-width: 180px;
+        height: auto;
+    }
+
+    .shape-bottom.shape-right {
+        
+        max-width: 182px;
+        height: auto;
+    }
+
+    .app-screenshot img {
+        max-width: 380px;
+    }
+
+    .header-wrapper {
+        min-height: 80vh;
+    }
+
+    .app-screenshot {
+        margin-bottom: 120px;
+    }
+
+    // clients section
+
+    .clients {
+        margin-bottom: 120px;
+    }
+
+    .client-logo img {
+        max-width: 115px;
+        height: auto;
+    }
+
+    .client-logo1 {
+        margin-top: -14px;
+    }
+
+    .champ-bg {
+        
+        margin-top: -120px;
+        max-width: 255px;
+    }
+
+    .champion-image img {
+        max-width: 325px;
+        height: auto;
+    }
+
+    .champion-content p, .rebound-content p, .segment-content p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .champion-content h2, .rebound-content h2, .segment-content h2 {
+        font-size: 30px;
+        
+    }
+
+    .champion-content h5, .rebound-content h5, .segment-content h5 {
+        font-size: 20px;
+        
+    }
+
+    .rebound-img img {
+        max-width: 350px;
+        height: auto;
+    }
+
+    .rebound-pattern {
+        height: 160%;
+    }
+
+    .segment-img img {
+        max-width: 320px;
+        height: auto;
+    }
+
+    .segment {
+        margin-bottom: 180px;
+    }
+
+    .expert-content {
+        h3 {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+    }
+
+    .hide-below-tab {
+        display: none !important;
+    }
+    
+    .shape-bottom {
+        bottom: -22px;
+    }
+}
+
+@media (max-width : 767px) {
+    .rebound-pattern {
+        height: 75%;
+    }
+
+    .hide-in-mobile {
+        display: none !important;
+    }
+    
+    .header-wrapper {
+        padding-bottom: 260px;
+    }
+    
+    .app-screenshot img {
+        width: 88vw;
+    }
+    
+    .app-screenshot {
+        margin-bottom: 60px;
+    }
+    
+    .header-banner-content h1 {
+    font-size: 30px;
+}
+
+.custom-navbar {
+        margin-bottom: 30px;
+}
+
+.header-banner-content p {
+    padding: 0;
+}
+
+.clients {
+    flex-flow: column;
+    align-items: center;
+    margin-bottom: 40px;
+    
+    .client-logo {
+        margin-bottom: 30px;
+    }
+}
+
+.champ-bg {
+    margin-top: 200px;
+    max-width: 355px;
+}
+
+.champion-section {
+        margin-bottom: 75px;
+}
+
+.champion-content h2, .rebound-content h2, .segment-content h2 {
+    font-size: 26px;
+}
+
+.champion-content h5, .rebound-content h5, .segment-content h5 {
+    font-size: 16px;
+}
+
+.champion-content p, .rebound-content p, .segment-content p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.rebound {
+    margin-bottom: 120px;
+}
+
+.segment {
+    margin-bottom: 60px;
+}
+
+.expert-content h3 {
+    font-size: 26px;
+}
+
+.expert-content p {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0;
+}
+
+.expert-slide {
+    margin-bottom: 80px;
+}
+
+.expert-slide .slick-arrow {
+    width: 30px;
+}
+
+.privacy-block-content {
+    margin-bottom: 40px;
+}
+
+.security-col {
+    padding: 30px;
+}
+
+.waitlist-wrapper h2 {
+    font-size: 22px;
+}
+
+.waitlist-wrapper p {
+    font-size: 16px;
+}
+
+.waitlist-form {
+    flex-flow: column;
+}
+
+.waitlist-form .waitlist-form-group {
+    margin: 0 0 20px;
+}
+
+.avrio-footer {
+    hr {
+        border-top-color: transparent;
+    }
+}
+.footer-copyright .row {
+    flex-flow: column-reverse;
+    text-align: center;
+}
+
+.text-right.footer-quick-links {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-quick-links a {
+    margin: 0;
+}
+
+.avrio-footer .hr-separator {
+    margin-top: 20px;
+}
+}

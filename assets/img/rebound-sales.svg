@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1696px" height="773px" viewBox="0 0 1696 773" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>Rebound Sales</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 307 0 307 421 0 421"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rebound-Sales" transform="translate(-1.000000, 0.000000)">
+            <polygon id="Rectangle" fill="#64B5FF" points="97 648 1697 648 1697 773 507.269549 773 97 773"></polygon>
+            <g id="Group-3">
+                <rect id="Rectangle" fill="#64B5FF" x="97" y="295" width="49" height="372"></rect>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M145.952442,244.294586 C145.952442,189.30054 190.600372,144.721993 245.680014,144.721993 L287.209346,144.721993 C298.696182,144.721993 308,135.427444 308,123.963648 L308,20.7583452 C308,9.29454909 298.696182,0 287.209346,0 L218.423466,0 C98.3470414,0 1,97.1905725 1,217.085585 L1,400.241655 C1,411.705451 10.3038178,421 21.7906544,421 L125.15659,421 C136.643427,421 145.947245,411.705451 145.947245,400.241655 L145.952442,244.294586 Z" id="Fill-1" fill="#64B5FF" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

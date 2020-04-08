@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="65px" viewBox="0 0 70 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>Hero Shapes</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-Page" transform="translate(-1530.000000, 0.000000)" fill="#FFD766">
+            <g id="Hero" transform="translate(-513.000000, -478.000000)">
+                <g id="Hero-Shapes">
+                    <g id="shapes/O" transform="translate(2017.000000, 208.500000)">
+                        <path d="M355,177.002143 C355,274.757977 275.529831,354.004287 177.497851,354.004287 C79.4658707,354.004287 0,274.757977 0,177.002143 C0,79.2463098 79.4658707,4.97379915e-14 177.497851,4.97379915e-14 C275.529831,4.97379915e-14 355,79.2463098 355,177.002143" id="O"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
